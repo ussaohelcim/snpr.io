@@ -2,6 +2,6 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "ES2020",
-		"typeRoots": ["./jwf/dist/"]
+		"typeRoots": ["jwf/distt"]
 	},
 }
