@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>sniper.io</title>
+
+</head>
+<body>
+	<main>
+		<div class="side">
+			<div class="">
+				<p id="roomname"></p>
+				<div id="highscore"></div>
+			</div>
+			<div class="expand-h">
+				<h3>Kill feed</h2>
+				<p id="killfeed" class="overflow"></p>
+			</div>
+		</div>
+		<div>
+			<p>
+				snpr.io
+			</p>
+			<canvas id="ctx"></canvas>
+			<p>
+				s to toogle hide
+			</p>
+			<p>
+				Made by <a href="https://github.com/ussaohelcim.snpr.io">ussaohelcim</a>
+			</p>
+		</div>
+	</main>
+	<footer></footer>
+	<script src="socket.io.js"></script>
+	<script src="./jwf/dist/jwCL.js"></script>
+	<script src="./jwf/dist/jwml.js"></script>
+	<script src="./jwf/dist/party.js"></script>
+	<script src="./jwf/dist/jwf.js"></script>
+	<script src="client.js"></script>
+</body>
+</html>
